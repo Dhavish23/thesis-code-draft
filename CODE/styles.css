@@ -1,0 +1,141 @@
+/* Main app background */
+.stApp {
+    background: linear-gradient(180deg, #0b1220 0%, #111827 100%);
+    color: #f9fafb;
+}
+
+/* Dark header bar */
+header[data-testid="stHeader"] {
+    background: #0b1220 !important;
+    border-bottom: 1px solid #1e293b !important;
+}
+
+/* Main page spacing */
+.block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    max-width: 1000px;
+}
+
+/* Hero section */
+.hero-box {
+    background: linear-gradient(135deg, #111827, #1f2937);
+    border: 1px solid #374151;
+    border-radius: 18px;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero-box h1 {
+    color: #f9fafb;
+    margin-bottom: 0.6rem;
+    font-size: 2.2rem;
+}
+
+.hero-box p {
+    color: #cbd5e1;
+    font-size: 1rem;
+    line-height: 1.7;
+    margin: 0;
+}
+
+/* Section cards */
+div[data-testid="stVerticalBlockBorderWrapper"] {
+    background: rgba(17, 24, 39, 0.88) !important;
+    border: 1px solid #374151 !important;
+    border-radius: 18px !important;
+    padding: 1.2rem !important;
+    margin-bottom: 0.8rem !important;
+}
+
+/* Hide stray empty border boxes */
+div[data-testid="stVerticalBlockBorderWrapper"]:has(> div:empty) {
+    display: none !important;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4 {
+    color: #f9fafb !important;
+}
+
+p,
+label,
+div,
+span {
+    color: #e5e7eb;
+}
+
+/* Text area */
+textarea {
+    border-radius: 12px !important;
+    background-color: #0f172a !important;
+    color: #f9fafb !important;
+    border: 1px solid #475569 !important;
+}
+
+div[data-baseweb="textarea"] {
+    background-color: #0f172a !important;
+    border-radius: 12px !important;
+}
+
+/* Button */
+div.stButton>button {
+    width: 100%;
+    border-radius: 12px;
+    height: 3em;
+    font-weight: 600;
+    background: linear-gradient(135deg, #2563eb, #1d4ed8);
+    color: white;
+    border: none;
+}
+
+div.stButton>button:hover {
+    background: linear-gradient(135deg, #1d4ed8, #1e40af);
+    color: white;
+}
+
+/* Horizontal rule */
+hr {
+    border-color: #374151;
+}
+
+/* Metric cards */
+div[data-testid="metric-container"] {
+    background: #111827;
+    border: 1px solid #374151;
+    padding: 1rem;
+    border-radius: 14px;
+}
+
+div[data-testid="metric-container"] label,
+div[data-testid="metric-container"] div {
+    color: #f9fafb !important;
+}
+
+/* Alerts */
+div[data-testid="stAlert"] {
+    border-radius: 12px;
+}
+
+/* Expander */
+details {
+    background: rgba(17, 24, 39, 0.88);
+    border: 1px solid #374151 !important;
+    border-radius: 14px !important;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1.5rem;
+}
+
+details summary {
+    color: #cbd5e1 !important;
+    font-size: 0.9rem;
+}
+
+/* Caption */
+div[data-testid="stCaptionContainer"] p {
+    color: #6b7280 !important;
+    font-size: 0.8rem;
+}
