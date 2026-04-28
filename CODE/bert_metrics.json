@@ -1,0 +1,21 @@
+{
+  "accuracy": 98.8,
+  "precision_fake": 99.0,
+  "recall_fake": 98.8,
+  "f1_fake": 98.9,
+  "precision_real": 98.7,
+  "recall_real": 98.9,
+  "f1_real": 98.8,
+  "confusion_matrix": [
+    [
+      7662,
+      92
+    ],
+    [
+      79,
+      6984
+    ]
+  ],
+  "test_size": 14817,
+  "train_size": 30081
+}
